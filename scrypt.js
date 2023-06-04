@@ -55,3 +55,23 @@ for(let i=0 ; i<team.length; i++){
     console.log(team[i].image);
 
 }
+
+
+
+// MILESTONE 2: STAMPA IN DOM
+
+let squadra =''
+
+squadra = document.getElementById('team');
+
+
+
+for(let i=0 ; i<team.length; i++){
+
+    squadra.innerHTML += team[i].name
+    squadra.innerHTML += team[i].role
+    squadra.innerHTML += team[i].image
+
+    
+
+}
