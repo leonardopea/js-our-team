@@ -1,4 +1,4 @@
-// MILESTONE 0
+// MILESTONE 0: CREAZIONE DELL'ARRAY OBJECT
 
 let team = [
 
@@ -40,3 +40,18 @@ let team = [
 
 
 ]   
+
+
+
+
+// MILESTONE 1: STAMPA IN CONSOLE
+
+for(let i=0 ; i<team.length; i++){
+
+    console.log(team[i].name);
+
+    console.log(team[i].role);
+
+    console.log(team[i].image);
+
+}
