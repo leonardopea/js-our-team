@@ -34,7 +34,7 @@ let team = [
     {
     "name" : "Barbara Ramos",
     "role" : "Graphic Designer",
-    "image" : "barbara-ramos-graphic-desiner.jpg",
+    "image" : "barbara-ramos-graphic-designer.jpg",
     }   
 
 
@@ -58,7 +58,7 @@ for(let i=0 ; i<team.length; i++){
 
 
 
-// MILESTONE 2: STAMPA IN DOM
+// MILESTONE 2: STAMPA IN DOM   
 
 let squadra =''
 
@@ -68,10 +68,11 @@ squadra = document.getElementById('team');
 
 for(let i=0 ; i<team.length; i++){
 
-    squadra.innerHTML += team[i].name
-    squadra.innerHTML += team[i].role
-    squadra.innerHTML += team[i].image
+    squadra.innerHTML += team[i].name +`<br>` ;
+    squadra.innerHTML += team[i].role +`<br>`;
+    squadra.innerHTML += `<img src= "./img/${team[i].image}"> +<br>`    ;  // BONUS 1 : TRASFORMA LE IMMAGINI STRINGA IN VERE FOTO
 
     
 
 }
+
